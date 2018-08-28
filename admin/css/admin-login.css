@@ -1,0 +1,28 @@
+#main-content {
+  width: 40%;
+  height: 50vh;
+  background-color:none;
+  margin-top: 25vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 20px; 
+}
+.img-login {
+  width: 30%;
+  margin: 0 35%;
+}
+@media only screen and (max-width: 600px) {
+  #main-content {
+    width: 90%;
+    height: 50vh;
+    background-color:#363a4d;
+    margin-top: 25vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px; 
+  }
+  .img-login {
+    width: 50%;
+    margin: 0 25%;
+  }
+}

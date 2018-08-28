@@ -1,0 +1,53 @@
+[26-Jun-2018 04:17:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5' in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[26-Jun-2018 10:19:39 America/Chicago] PHP Notice:  Undefined variable: control_num in /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php on line 20
+[26-Jun-2018 10:19:39 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5 in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[26-Jun-2018 10:32:58 America/Chicago] PHP Notice:  Undefined variable: control_num in /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php on line 20
+[26-Jun-2018 10:32:58 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5 in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[26-Jun-2018 11:16:38 America/Chicago] PHP Notice:  Undefined variable: control_num in /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php on line 20
+[26-Jun-2018 11:16:38 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5 in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[26-Jun-2018 11:19:34 America/Chicago] PHP Notice:  Undefined variable: control_num in /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php on line 20
+[26-Jun-2018 11:19:34 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5 in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[27-Jun-2018 13:03:11 America/Chicago] PHP Notice:  Undefined variable: control_num in /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php on line 20
+[27-Jun-2018 13:03:11 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5 in /home/isbovaco/public_html/tekhne/models/Assistant.php:109
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 109
+[27-Aug-2018 02:39:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5' in /home/dsctekhn/public_html/models/Assistant.php:109
+Stack trace:
+#0 /home/dsctekhn/public_html/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/dsctekhn/public_html/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/dsctekhn/public_html/models/Assistant.php on line 109
+[27-Aug-2018 02:45:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5' in /home/dsctekhn/public_html/models/Assistant.php:109
+Stack trace:
+#0 /home/dsctekhn/public_html/models/Assistant.php(109): PDOStatement->execute()
+#1 /home/dsctekhn/public_html/web_services/assistants/registerPayWorkshopService.php(20): Assistant->getInfoAssistant(NULL)
+#2 {main}
+  thrown in /home/dsctekhn/public_html/models/Assistant.php on line 109

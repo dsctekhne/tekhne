@@ -1,0 +1,6 @@
+[26-Jun-2018 04:11:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`conference_speaker`, CONSTRAINT `conference_speaker_ibfk_2` FOREIGN KEY (`id_speaker`) REFERENCES `speakers` (`id_speaker`) ON UPDATE CASCADE)' in /home/isbovaco/public_html/tekhne/models/Speaker.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Speaker.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/speakers/deleteSpeakerService.php(11): Speaker->deleteSpeaker('2')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Speaker.php on line 94

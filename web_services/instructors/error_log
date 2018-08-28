@@ -1,0 +1,30 @@
+[26-Jun-2018 04:11:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`workshop_instructor`, CONSTRAINT `workshop_instructor_ibfk_2` FOREIGN KEY (`id_instructor`) REFERENCES `instructors` (`id_instructor`) ON UPDATE CASCADE)' in /home/isbovaco/public_html/tekhne/models/Instructor.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Instructor.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/instructors/deleteInstructorService.php(11): Instructor->deleteInstructor('1')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Instructor.php on line 94
+[26-Jun-2018 10:23:45 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`workshop_instructor`, CONSTRAINT `workshop_instructor_ibfk_2` FOREIGN KEY (`id_instructor`) REFERENCES `instructors` (`id_instructor`) ON UPDATE CASCADE) in /home/isbovaco/public_html/tekhne/models/Instructor.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Instructor.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/instructors/deleteInstructorService.php(11): Instructor->deleteInstructor('1')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Instructor.php on line 94
+[26-Jun-2018 10:25:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`workshop_instructor`, CONSTRAINT `workshop_instructor_ibfk_2` FOREIGN KEY (`id_instructor`) REFERENCES `instructors` (`id_instructor`) ON UPDATE CASCADE) in /home/isbovaco/public_html/tekhne/models/Instructor.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Instructor.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/instructors/deleteInstructorService.php(11): Instructor->deleteInstructor('1')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Instructor.php on line 94
+[26-Jun-2018 10:25:42 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`workshop_instructor`, CONSTRAINT `workshop_instructor_ibfk_2` FOREIGN KEY (`id_instructor`) REFERENCES `instructors` (`id_instructor`) ON UPDATE CASCADE) in /home/isbovaco/public_html/tekhne/models/Instructor.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Instructor.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/instructors/deleteInstructorService.php(11): Instructor->deleteInstructor('1')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Instructor.php on line 94
+[26-Jun-2018 10:33:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`isbovaco_tekhne`.`workshop_instructor`, CONSTRAINT `workshop_instructor_ibfk_2` FOREIGN KEY (`id_instructor`) REFERENCES `instructors` (`id_instructor`) ON UPDATE CASCADE) in /home/isbovaco/public_html/tekhne/models/Instructor.php:94
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Instructor.php(94): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/web_services/instructors/deleteInstructorService.php(11): Instructor->deleteInstructor('2')
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Instructor.php on line 94

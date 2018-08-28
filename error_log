@@ -1,0 +1,32 @@
+[27-Jun-2018 12:58:39 America/Chicago] PHP Notice:  Undefined index: id_assistant in /home/isbovaco/public_html/tekhne/yourconferences.php on line 21
+[27-Jun-2018 12:58:39 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 16 in /home/isbovaco/public_html/tekhne/models/Assistant.php:303
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(303): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/yourconferences.php(21): Assistant->getAllConferences2(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 303
+[27-Jun-2018 12:59:59 America/Chicago] PHP Notice:  Undefined index: id_assistant in /home/isbovaco/public_html/tekhne/yourconferences.php on line 21
+[27-Jun-2018 12:59:59 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 16 in /home/isbovaco/public_html/tekhne/models/Assistant.php:303
+Stack trace:
+#0 /home/isbovaco/public_html/tekhne/models/Assistant.php(303): PDOStatement->execute()
+#1 /home/isbovaco/public_html/tekhne/yourconferences.php(21): Assistant->getAllConferences2(NULL)
+#2 {main}
+  thrown in /home/isbovaco/public_html/tekhne/models/Assistant.php on line 303
+[27-Aug-2018 02:22:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 16' in /home/dsctekhn/public_html/models/Assistant.php:415
+Stack trace:
+#0 /home/dsctekhn/public_html/models/Assistant.php(415): PDOStatement->execute()
+#1 /home/dsctekhn/public_html/yourworkshops.php(22): Assistant->getAllWorkshops2(NULL)
+#2 {main}
+  thrown in /home/dsctekhn/public_html/models/Assistant.php on line 415
+[27-Aug-2018 02:23:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 16' in /home/dsctekhn/public_html/models/Assistant.php:303
+Stack trace:
+#0 /home/dsctekhn/public_html/models/Assistant.php(303): PDOStatement->execute()
+#1 /home/dsctekhn/public_html/yourconferences.php(22): Assistant->getAllConferences2(NULL)
+#2 {main}
+  thrown in /home/dsctekhn/public_html/models/Assistant.php on line 303
+[27-Aug-2018 15:17:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 16' in /home/dsctekhn/public_html/models/Assistant.php:303
+Stack trace:
+#0 /home/dsctekhn/public_html/models/Assistant.php(303): PDOStatement->execute()
+#1 /home/dsctekhn/public_html/yourconferences.php(22): Assistant->getAllConferences2(NULL)
+#2 {main}
+  thrown in /home/dsctekhn/public_html/models/Assistant.php on line 303

@@ -1,0 +1,4 @@
+[26-Jun-2018 10:56:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Assistant' not found in /home/isbovaco/public_html/tekhne/web_services/conferences/newConferenceService.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/isbovaco/public_html/tekhne/web_services/conferences/newConferenceService.php on line 19

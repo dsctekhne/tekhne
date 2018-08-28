@@ -1,0 +1,24 @@
+.modal-open {
+  overflow: scroll;
+}
+body { padding-right: 0 !important }
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text-white {
+  color: white;
+}
+
+.anchor {
+  color: gray;
+}
+
+.anchor:hover {
+  color: white;
+}
+
+.anchor:visited {
+  color: white;
+}
